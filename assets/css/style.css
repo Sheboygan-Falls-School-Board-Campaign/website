@@ -111,12 +111,12 @@ h6 {
   max-height: 40px;
 }
 
-#header .donate {
+#header .contribute {
   margin: 0 0 0 30px;
 }
 
-#header .donate a {
-  color: hsl(266, 55%, 70%);
+#header .contribute a {
+  color: hsl(266, 55%, 60%);
 }
 
 /*--------------------------------------------------------------
