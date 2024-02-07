@@ -113,10 +113,18 @@ h6 {
 
 #header .contribute {
   margin: 0 0 0 30px;
+  border: solid 2px;
+  border-radius: 20px;
+  border-color: hsl(266, 55%, 80%);
+}
+
+#header .contribute:hover {
+  border-color: hsl(266, 55%, 85%);
 }
 
 #header .contribute a {
   color: hsl(266, 55%, 60%);
+  padding: 0 5px;
 }
 
 #header .contribute a:hover {
