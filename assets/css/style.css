@@ -696,72 +696,9 @@ section {
 /*--------------------------------------------------------------
 # Get Involved
 --------------------------------------------------------------*/
-.get-involved .info {
-  padding: 30px;
-  background: #fff;
-  width: 100%;
-  border: 2px solid #e9ecee;
-  border-radius: 4px;
-}
 
-.get-involved .info i {
-  font-size: 20px;
-  color: #009cea;
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: #f2f4f5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-}
-
-.get-involved .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #364146;
-}
-
-.get-involved .info p {
-  padding: 0 0 10px 60px;
-  margin-bottom: 20px;
-  font-size: 14px;
-  color: #627680;
-}
-
-.get-involved .info .social-links {
-  padding-left: 60px;
-}
-
-.get-involved .info .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #333;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-  margin-right: 10px;
-}
-
-.get-involved .info .social-links a:hover {
-  background: #009cea;
-  color: #fff;
-}
-
-.get-involved .info .email:hover i,
-.get-involved .info .address:hover i,
-.get-involved .info .phone:hover i {
-  background: #009cea;
-  color: #fff;
+.get-involved .section-title {
+  padding-bottom: 10px;
 }
 
 .get-involved .get-involved-form {
@@ -770,6 +707,11 @@ section {
   background: #fff;
   border: 2px solid #e9ecee;
   border-radius: 4px;
+}
+
+.get-involved .get-involved-form .title {
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .get-involved .get-involved-form .form-group {
@@ -812,6 +754,10 @@ section {
   .get-involved .container {
     max-width: 750px;
   }
+}
+
+.get-involved li {
+  margin-bottom: 5px;
 }
 
 /*--------------------------------------------------------------
