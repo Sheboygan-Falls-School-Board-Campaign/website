@@ -135,7 +135,7 @@ h6 {
 # Header Social Links
 --------------------------------------------------------------*/
 .header-social-links {
-  margin: 0 0 0 30px;
+  margin: 0 15px 0 30px;
 }
 
 @media (max-width: 768px) {
