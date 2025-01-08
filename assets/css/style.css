@@ -97,12 +97,7 @@ h6 {
   font-weight: 600;
   letter-spacing: 1px;
   font-family: "Open Sans", sans-serif;
-}
-
-#header .logo h1 a,
-#header .logo h1 a:hover {
   color: hsl(266, 55%, 30%);
-  text-decoration: none;
 }
 
 #header .logo img {
@@ -398,6 +393,7 @@ h6 {
   color: hsl(199, 13%, 65%);
   font-weight: 500;
   font-size: 30px;
+  line-height: 0;
 }
 
 #hero h2 {
@@ -527,13 +523,13 @@ section {
 }
 
 /*--------------------------------------------------------------
-# initiatives
+# Boxes
 --------------------------------------------------------------*/
-.initiatives .icon-box {
+.boxes .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
-  margin: 0;
+  margin: 0 0 30px 0;
   background: #fff;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
@@ -542,72 +538,115 @@ section {
   border-bottom: 3px solid #fff;
 }
 
-.initiatives p.description {
+.boxes .icon-box .profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px auto;  
+}
+
+.boxes p.description {
   text-align: left;
   margin-top: 1ex;
 }
 
-.initiatives .icon-box:hover {
+.boxes .icon-box:hover {
   transform: translateY(-5px);
 }
 
-.initiatives .icon i {
+.boxes .icon i {
   font-size: 48px;
   line-height: 1;
   margin-bottom: 15px;
 }
 
-.initiatives .title {
+.boxes .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.initiatives .title a {
+.boxes .title a {
   color: #111;
 }
 
-.initiatives .section-title {
+.boxes .section-title {
   max-width: 750px;
   margin: auto;
 }
 
-.initiatives .description {
+.boxes .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
 }
 
-.initiatives .icon-box-pink .icon i {
+.boxes .icon-box-pink .icon i {
   color: #ff689b;
 }
 
-.initiatives .icon-box-pink:hover {
+.boxes .icon-box-pink:hover {
   border-color: #ff689b;
 }
 
-.initiatives .icon-box-cyan .icon i {
+.boxes .icon-box-cyan .icon i {
   color: #3fcdc7;
 }
 
-.initiatives .icon-box-cyan:hover {
+.boxes .icon-box-cyan:hover {
   border-color: #3fcdc7;
 }
 
-.initiatives .icon-box-green .icon i {
+.boxes .icon-box-green .icon i {
   color: #41cf2e;
 }
 
-.initiatives .icon-box-green:hover {
+.boxes .icon-box-green:hover {
   border-color: #41cf2e;
 }
 
-.initiatives .icon-box-blue .icon i {
+.boxes .icon-box-blue .icon i {
   color: #2282ff;
 }
 
-.initiatives .icon-box-blue:hover {
+.boxes .icon-box-blue:hover {
   border-color: #2282ff;
+}
+
+.boxes .icon-box-purple .icon i {
+  color: hsl(266, 55%, 60%);
+}
+
+.boxes .icon-box-purple:hover {
+  border-color: hsl(266, 55%, 60%);
+}
+
+.boxes .icon-box-orange .icon i {
+  color: #e26b32;
+}
+
+.boxes .icon-box-orange:hover {
+  border-color: #e26b32;
+}
+
+.boxes .row div .icon-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.boxes ul li {
+  padding-bottom: 10px;
+}
+
+.boxes ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #28a745;
+}
+
+.boxes .content p:last-child {
+  margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
